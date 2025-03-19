@@ -6,7 +6,11 @@
     <link rel="stylesheet" href="output.css" />
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="swiper.css" />
     <title>Pizza sifarişi: çatdırılma və ya al-apar | Papa Johns Azərbaycan</title>
+
+
 </head>
 <body>
     <header>
@@ -82,7 +86,7 @@
             </div>
         </div>
         <nav class="bg-[#b91c1c] h-[80px] w-full flex items-center  justify-between border-l-[20px] border-r-[20px] border-[#b91c1c]">
-            <ul class=" flex flex-row text-[.9em] items-center  text-white font-[500] lg:text-[1.1em]  overflow-x-auto gap-4 uppercase xl:pl-[270px]" >
+            <ul class=" flex flex-row text-[.9em] items-center m-auto text-white font-[500] lg:text-[1.1em]  overflow-x-auto gap-4 uppercase xl:pl-[270px]" >
                 <li><a href="#">kampaniyalar</a></li>
                 <li><a href="#">papadias</a></li>
                 <li><a href="#">pizza</a></li>
@@ -100,7 +104,66 @@
             </div>
             
         </nav>
+
+        <div id="search"  class="lg:pl-[100px] lg:pr-[100px] bg-[#f1f1f1]  mt-[20px]  mb-[20px] lg:ml-[10px] lg:mr-[10px] max-w-[100%] lg:max-w-[99%] h-[75px] flex items-center justify-between">
+            <h3 class="font-bold text-[1.5em] hidden lg:inline-block">Promo kodunuz var? <span class="text-[#15803d]">Endirimdən istifadə edin!</span></h3>
+
+            <div class="m-auto flex items-center gap-2">
+                <input type="text" placeholder="Promo kodu daxil edin" class="border-[1px] border-[#15803d]  rounded-[5px] w-[200px] h-[40px] pl-[10px]" />
+                <button class="w-[60px] h-[40px] bg-[#15803d] rounded-[5px] text-[#fff] font-bold ">OK</button>
+            </div>
+
+        </div>
+       
     </header>
+    <main>
+        <div>
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/slider1.png" alt="did't find!"></div>
+                <div class="swiper-slide"><img src="img/slider2.png" alt="did't find!"></div>
+                <div class="swiper-slide"><img src="img/slider3.png" alt="did't find!"></div>
+                <div class="swiper-slide"><img src="img/slider4.png" alt="did't find!"></div>
+                <div class="swiper-slide"><img src="img/slider5.png" alt="did't find!"></div>
+                <div class="swiper-slide"><img src="img/slider6.png" alt="did't find!"></div>
+                <div class="swiper-slide"><img src="img/slider7.jpg" alt="did't find!"></div>
+                <div class="swiper-slide"><img src="img/slider8.png" alt="did't find!"></div>
+                <div class="swiper-slide"><img src="img/slider9.png" alt="did't find!"></div>
+                <div class="swiper-slide"><img src="img/slider10.jpg" alt="did't find!"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+      
+        
+        
+    </main>
+
+    <footer>
+        <div id="footerdiv" class="w-full lg:text-[20px]  text-[1em]  bg-[#b91c1c] py-[10px] font-bold text-[#fff] flex flex-col lg:flex-row justify-between  items-center lg:h-[70px] lg:px-[20px]">
+            
+            <div class="w-full lg:w-auto lg:order-2">
+                <ul class="flex flex-col lg:flex-row gap-2 items-center justify-center lg:items-start">
+                    <li><a href="#"> Haqqımızda</a></li>
+                    <li><a href="#">Sual-Cavab</a></li>
+                    <li><a href="#">Karyera</a></li>
+                    <li><a href="#">Xəmir</a></li>
+                    <li><a href="#">Papa Talk - Şərtlər və Qaydalar</a></li>
+                </ul>
+            </div>
+            <div class="text-center lg:text-left lg:order-1">
+                <p> © PJA 2024</p>
+            </div>
+        </div>
+    </footer>
     
+    
+    
+    
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/swiper.js"></script>
 </body>
 </html>

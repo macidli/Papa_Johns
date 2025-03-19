@@ -1,0 +1,41 @@
+.swiper {
+    width: 99%;
+    height: 100%;
+    margin: 20px auto;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper-pagination-bullet {
+    width:8px;
+    height: 8px;
+    background: #fff;
+    opacity: 1;
+    border: 1px solid  #005d21
+  }
+  .swiper-pagination-bullet-active{
+    background: #005d21
+  }
+ 
+
+  @media only screen and (min-width: 768px) {
+    .swiper-pagination-bullet {
+        width:14px;
+        height: 14px;
+    }
+
+  }
